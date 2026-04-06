@@ -1,5 +1,3 @@
-# README
-
 ## BFS (Breadth-First Search)
 
 A busca em largura percorre o grafo em níveis, visitando primeiro os vizinhos mais próximos. Utiliza uma fila (FIFO) e marca os vértices para evitar revisitas.
