@@ -11,13 +11,13 @@ Cada vértice possui:
 
 ## Grafo utilizado
 
-Representação por lista de adjacência:
-a -> d, f
-b -> e
-c -> e, f
-d -> a
-e -> b, c, f
-f -> c, e
+Representação por lista de adjacência:  
+a -> d, f  
+b -> e  
+c -> e, f  
+d -> a  
+e -> b, c, f  
+f -> c, e  
 
 
 ## Saída da BFS (origem: a)
