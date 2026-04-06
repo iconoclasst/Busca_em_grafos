@@ -37,6 +37,10 @@ def bfs(grafo, s):
     print("Arvore BFS gerada:")
     print(arestas)
 
+    print(f"Distancia de {s} até cada vértice:")
+    for v in grafo:
+        print(f"{v.nome} -> {v.d}")
+
 a = vertice('a')
 b = vertice('b')
 c = vertice('c')
