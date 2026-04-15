@@ -52,7 +52,7 @@ grafo = {
     f:[c, e]
 }
 
-tempos = dfs(grafo)
+tempos = ordenacao_topologica(grafo)
 
 tempos = sorted(tempos, key=lambda x: x[1], reverse=True)
 print(tempos)
